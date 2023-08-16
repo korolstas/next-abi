@@ -1,0 +1,62 @@
+@import "../../../styles/mixins";
+
+.card {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 8%;
+  min-width: 280px;
+  height: 340px;
+  flex: 1 0 auto;
+  border: 3px solid @GreenLight;
+  border-radius: 20px;
+  background: @HeroBack;
+  transition: 0.5s all;
+  cursor: pointer;
+
+  &_heart {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  &:hover {
+    border-color: @GreenHight;
+    background-color: @HeroBackHover;
+    box-shadow: 0px 10px 25px 0px @GreenHight;
+    color: @GreenHight;
+    .card_info {
+      h2 {
+        color: @GreenHight;
+      }
+      &_img {
+        border-color: @GreenHight;
+      }
+    }
+  }
+
+  &_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      width: 200px;
+      margin-top: 0 !important;
+      transition: 0.5s all;
+      display: flex;
+      justify-content: center;
+      color: @GreenLight;
+    }
+
+    &_img {
+      transition: 0.5s all;
+      border: 4px solid @GreenLight;
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+}

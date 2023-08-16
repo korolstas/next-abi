@@ -1,0 +1,32 @@
+.window {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.error {
+  font-family: "Bricolage Grotesque", sans-serif;
+  background: rgba(8, 19, 41, 0.7);
+  padding: 10px;
+  height: max-content;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  border-radius: 20px;
+  border: 3px solid red;
+  color: red;
+}
+.success {
+  font-family: "Bricolage Grotesque", sans-serif;
+  background: rgba(8, 19, 41, 0.5);
+  padding: 10px;
+  height: max-content;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  border-radius: 20px;
+  border: 3px solid #06ea4e;
+  color: #06ea4e;
+}

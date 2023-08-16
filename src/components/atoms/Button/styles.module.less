@@ -1,0 +1,66 @@
+@import "../../../styles/mixins";
+
+.green {
+  font-family: "Bricolage Grotesque", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+  margin-right: 25px;
+  border-radius: 25px;
+  background-color: rgba(63, 1, 178, 0);
+  transition: all 1s;
+  color: @GreenLight;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    border-color: @GreenHight;
+    color: @GreenHight;
+  }
+}
+
+.cancel {
+  font-family: "Bricolage Grotesque", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  height: max-content;
+  width: max-content;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  color: @GreenLight;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.5s all;
+
+  &:hover {
+    cursor: pointer;
+    color: @GreenHight;
+  }
+}
+
+.submit {
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid @GreenLight;
+  background: @GreenLow;
+  border-radius: 5px;
+  color: @GreenLight;
+  padding: 10px 30px;
+  font-size: 20px;
+  transition: all 1s;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid @GreenHight;
+    color: @GreenHight;
+    transition: all 1s;
+  }
+}

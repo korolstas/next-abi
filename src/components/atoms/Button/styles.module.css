@@ -1,0 +1,59 @@
+.green {
+  font-family: "Bricolage Grotesque", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+  margin-right: 25px;
+  border-radius: 25px;
+  background-color: rgba(63, 1, 178, 0);
+  transition: all 1s;
+  color: #6de893;
+  border: none;
+  cursor: pointer;
+}
+.green:hover {
+  border-color: #06ea4e;
+  color: #06ea4e;
+}
+.cancel {
+  font-family: "Bricolage Grotesque", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  top: 20px;
+  right: 20px;
+  font-size: 28px;
+  height: max-content;
+  width: max-content;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  color: #6de893;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.5s all;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: #06ea4e;
+}
+.submit {
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #6de893;
+  background: #4da16859;
+  border-radius: 5px;
+  color: #6de893;
+  padding: 10px 30px;
+  font-size: 20px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.submit:hover {
+  border: 2px solid #06ea4e;
+  color: #06ea4e;
+  transition: all 1s;
+}

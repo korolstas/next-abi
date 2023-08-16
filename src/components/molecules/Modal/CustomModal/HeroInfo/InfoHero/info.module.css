@@ -1,0 +1,20 @@
+.text {
+  font-size: 20px;
+  color: #6de893;
+  padding-bottom: 10px;
+}
+.text b {
+  color: #06ea4e;
+}
+.box_name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #06ea4e;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #f9fd6e;
+}
