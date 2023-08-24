@@ -1,11 +1,12 @@
-export { Button, ErrorMessage, Input } from "./atoms";
-export {
-  Card,
-  Form,
-  HeroesList,
-  Loader,
-  Modal,
-  PopUpWindow,
-} from "./molecules";
-export { Layout, Header } from "./organisms";
-export { Home, Favorites, Locaited, Search } from "./organisms/screens";
+export { Button } from "./Button";
+export { Card } from "./Card";
+export { HeroesList } from "./HeroesList";
+export { Loader } from "./Loader";
+export { Modal } from "./Modal";
+export { PopUpWindow } from "./PopUpWindow";
+export { Input } from "./Input";
+export { CheckBox } from "./CheckBox";
+export { ErrorMessage } from "./ErrorMessage";
+export { Layout } from "./Layout";
+export { Header } from "./header";
+export { Home, Favorites, Locaited } from "./screens";
